@@ -1,0 +1,33 @@
+{
+  "name": "cnr-validation",
+  "version": "1.0.0",
+  "description": "A typescript node package for using chainable validation rules.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/canerdemirci/cnr-validation.git",
+  "author": "Caner Demirci <caner.demirci@outlook.com> (https://canerdemirciblog.hashnode.dev/)",
+  "repository": {
+    "url": "https://github.com/canerdemirci/cnr-validation.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canerdemirci/cnr-validation/issues/",
+    "email": "caner.demirci@outlook.com"
+  },
+  "scripts": {
+    "test": "tsx ./test/test.ts",
+    "build": "tsup"
+  },
+  "keywords": [
+    "validation",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@microsoft/tsdoc": "^0.15.0",
+    "@types/node": "^22.5.5",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
